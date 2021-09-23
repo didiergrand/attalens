@@ -1,0 +1,31 @@
+footer#footer{
+	clear:both;
+	background-color:$footer-color;
+	.widget{
+		background-color:transparent;
+		color: #fff;
+		margin:3rem 0;
+		padding: 0;
+		p,
+		dl{
+			margin:0.5rem 0;
+			font-size: 0.9rem;
+			dt{
+				float: left;
+				width: 60%;
+			}
+			dd{
+				margin-bottom: 0;
+				&:after{
+  					display: block;
+  					content: '';
+					clear:both; 
+				}
+			}
+			dt,dd{
+				line-height:1.2em;
+				padding:3px 0 2px;
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+.site-branding {
+  position: absolute;
+  z-index: 10;
+  margin: 0; 
+	.site-title{
+		img{
+			width: 4rem;
+		}
+	}
+}
+.site-header-main {  
+  display: block;
+}
+.site-main {
+  border-radius: 2px;
+}
+.site-branding, .site-header-menu, .header-image {
+  margin: 0;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 100%;
+}
+.site-header-menu{
+  display: block;
+}
+.carousel-inner .container{
+    position: relative;
+}
+.bienvenue{
+  color: #fff;
+  font-weight: 700;
+  font-size: 1em;
+  line-height:1.4em;
+  width: 280px;
+  min-height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 20;
+  text-transform: uppercase;
+  left:10%;
+  @media (min-width: 640px) {
+    font-size: 1.5em;
+    line-height: 1em;
+    width: 380px;
+    min-height: 200px;
+  }
+  @media (min-width: $screen-sm-min) {
+    font-size: 1.8em;
+  }
+  h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    line-height: 0.7em;
+    @media (min-width: 640px) {
+    font-size: 1.8em;
+    line-height: 0.9em;
+    }
+    @media (min-width: $screen-sm-min) {
+    font-size: 2em;
+    line-height: 0.9em;
+    }
+  }
+}

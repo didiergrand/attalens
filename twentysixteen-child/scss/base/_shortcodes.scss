@@ -1,0 +1,185 @@
+
+#documents {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#documents .document {
+  border-radius: 2px;
+  width: 49%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+#documents .document__title {
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+#documents .document__content {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#documents .document__content:hover .bt-expand,
+#documents .document__content:hover .bt-download {
+  display: block;
+}
+
+#documents .document__content:hover img {
+  opacity: 0.8;
+}
+
+#documents .document__content > * {
+  padding: 5px 20px;
+}
+
+#documents .document img, #documents .document .image {
+  padding: 0 !important;
+  width: 100%;
+}
+
+#documents .bt-expand,
+#documents .bt-download {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 0px 20px;
+  margin: 10px;
+  color: #000000;
+  display: none;
+}
+
+#documents .bt-expand:hover,
+#documents .bt-download:hover {
+  opacity: 1;
+}
+
+#documents .bt-expand span,
+#documents .bt-download span {
+  display: none;
+}
+
+#documents .bt-expand {
+  left: 80px;
+}
+
+#portraits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#portraits .portrait-img {
+  border-radius: 2px;
+  width: 49%;
+  background-color: #fff;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+
+#portraits .portrait__title {
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#portraits .portrait__content {
+  text-align: center;
+  padding-bottom: 15px;
+  position: relative;
+}
+#portraits .portrait__image {
+	height:200px;
+	width:150px;
+	margin:0 auto;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+#portraits .portrait__content:hover .bt-expand,
+#portraits .portrait__content:hover .bt-download {
+  display: block;
+}
+
+#portraits .portrait img, #portraits .portrait .image {
+  padding: 0 !important;
+}
+
+.carte_flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &:before{
+	  content:initial !important;
+  }
+	.carte {
+	  border-radius: 2px;
+	  width: 47%;
+	  background-color: #fff;
+	  margin-bottom: 20px;
+	}
+	
+	.carte__title {
+	  padding: 10px 20px;
+	  margin-bottom: 0;
+	}
+	
+	.carte__content {
+	  padding-bottom: 15px;
+	  position: relative;
+	}
+	
+	.carte__content > * {
+	  padding: 5px 20px;
+	}
+	
+	.carte img, .carte .image {
+	  padding: 0 !important;
+	  width: 100%;
+	}
+
+}
+
+#administration .content-area {
+  background-color: transparent;
+  padding: 0;
+}
+
+#administration .row {
+  margin: 0;
+}
+
+#administration .row.personnel {
+  text-align: center;
+  font-size: 16px;
+}
+
+#administration .row.personnel h2 {
+  line-height: 14px;
+  font-weight: bold;
+}
+
+#administration .row.personnel a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#administration .row [class^=col-] {
+  padding: 0;
+}
+
+#administration .row [class^=col-] .post {
+  padding: 60px;
+  background: #fff;
+  margin: 10px;
+}

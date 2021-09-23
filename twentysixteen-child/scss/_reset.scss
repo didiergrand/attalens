@@ -1,0 +1,49 @@
+table, th, td{
+  border:0;
+}
+.header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.site-inner {
+  max-width: 1220px;
+}
+
+.gallery-item {
+  margin-bottom: 20px;
+}
+
+figcaption { 
+  text-align: left;
+}
+   
+.site-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.post-thumbnail {
+  margin: 0;
+}
+
+.site {
+  margin: 0;
+  background-color: #EAEAEA;
+}
+.site-content {
+  padding: 0;
+}
+
+.site-main {
+  background: #ffffff;
+  padding: 4.5455%;
+  margin-bottom: 20px;
+}
+
+.site-main:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+hr{ clear: both; }	

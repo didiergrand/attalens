@@ -1,0 +1,73 @@
+
+#mega-menu-wrap-primary #mega-menu-primary {
+  text-align: left;
+  padding: 0;
+  @media (min-width: $screen-md-min) {
+    margin-left: 100px;
+  }
+
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link,
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover,
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:focus,
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-toggle-on > a.mega-menu-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#mega-menu-wrap-primary,
+#mega-menu-wrap-primary #mega-menu-primary,
+#mega-menu-wrap-primary #mega-menu-primary ul.mega-sub-menu{
+  font-size: 12px;
+  padding: 15px 0;
+  @media (min-width: $screen-md-min) {
+    padding:5px;
+  }
+}
+#mega-menu-wrap-primary #mega-menu-primary a.mega-menu-link,
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item{
+  padding: 5px 0;
+  @media (min-width: $screen-sm-min) {
+    padding:5px;
+  }
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {
+  padding: 0;
+  @media (min-width: $screen-sm-min) {
+    padding:5px;
+  }
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item li.mega-menu-item > a.mega-menu-link:hover {
+  color: #F5A623;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+  @media (min-width: $screen-sm-min) {
+    padding: 25px 50px;
+    margin-top: 10px;
+  }
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item ul.mega-sub-menu {
+  padding: 15px 30px 15px 15px;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item li.mega-menu-item > a.mega-menu-link {
+  line-height: 18px;
+}
+#mega-menu-wrap-primary .mega-menu-toggle{
+  background-color: transparent;
+}
+#mega-menu-wrap-primary .mega-menu-toggle #mega-toggle-block-1:before,#mega-menu-wrap-primary .mega-menu-toggle #mega-toggle-block-1:after{
+  color: #333;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item{
+  padding: 0;
+  &:last-child{
+    float: right;
+  }
+}
+#mega-menu-item-420{
+	float: right;
+}

@@ -1,0 +1,65 @@
+#carousel-accueil{
+  margin-bottom: 50px;
+}
+.homepage-content{
+  h2,
+  .widget h2.widget-title {
+    margin: 10px 0;
+  }
+  .homepage-thumb{
+    padding: 10px 0;
+  }
+  a.more-articles{
+    white-space: nowrap;
+    background-color: rgba(200,200,200,0.2);
+    padding: 1rem 1.5rem;
+    margin: 0 -1.5rem -1rem;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+      background-color: rgba(200,200,200,0.3);
+      text-decoration: none;
+      padding-left: 1.7rem;
+    }
+  }
+  .post{
+    margin: 20px 0 30px;
+    &:nth-last-child(2){
+      hr{ 
+        display: none;
+      }
+    }
+  }
+}
+.site-presentation {
+  background-color:$color-theme;
+  a,
+  a:hover,
+  p{
+    color: #fff;
+  }
+  .homepage-thumb{
+    margin: 10px -24px;
+    img{
+      width:100%;
+    }
+  }
+  a.more-articles{
+    background-color: rgba(255,255,255,0.2);
+    &:hover{
+      background-color: rgba(255,255,255,0.3);
+    }
+  }
+  .post{
+    margin-bottom: 0;
+  }
+  .entry>.p1:first-child{
+    margin-bottom: 20px;
+  }
+}
+.post-list{
+	img{
+		padding:5px 0;
+	}
+}

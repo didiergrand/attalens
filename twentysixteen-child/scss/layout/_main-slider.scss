@@ -1,0 +1,121 @@
+
+#owl-main_slider{
+  .owl-stage{
+    position: relative;
+    .item{
+      padding: 0;
+    }
+  }
+  .owl-nav{
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    height: 0;
+    .owl-prev,
+    .owl-next{
+      .fa{
+        color: $light;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+      }
+    }
+    .owl-prev{
+      float: left;
+    }
+    .owl-next{
+      float: right;
+    }
+  }
+  #bar{
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: $theme-color;
+  }
+  #progressBar{
+    width: 100%;
+    background: $neutral-color--light;
+  }
+  .owl-dots{
+    .owl-dot{
+      display: inline-block;
+      label{
+        display: none;
+        font-family: $brandonfont;
+        color: $light;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      span {
+        display:block;
+        width: 12px;
+        height: 12px;
+        margin: 5px 7px;
+        border-radius: 20px;
+        background:$light;
+      }
+      &.active{
+        span {
+          background:$theme-color;
+        }
+      }
+      &:hover span {
+        background:$theme-color;
+      }
+    }
+  }
+  .slider-controls{
+    text-align: center;
+    bottom: 2
+  }
+}
+@media (min-width:$screen-lg) {
+  #owl-main_slider{
+    .owl-dots{
+      border-top: 1px solid rgba($light, 0.6);
+      background-color: rgba($dark, 0.3);
+      width: 100%;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      .owl-dot{
+        flex-grow:1;
+        padding: 20px;
+        zoom: 1;
+          border-top: 3px solid transparent;
+        label{
+          display: block;
+          cursor: pointer;
+        }
+        span {
+          display: none;
+        }
+        &:hover,
+        &.active{
+          border-top: 3px solid $light;
+          label{
+          }
+        }
+      }
+    }
+    .slider-controls{
+      width: 1200px;
+      margin-left: -600px;
+      bottom: 3px;
+      position: absolute;
+      left: 50%;
+      z-index: 15;
+      padding-left: 0;
+
+    }
+
+    .carousel-caption{
+      bottom: 120px;
+    }
+  }
+}
